@@ -364,7 +364,7 @@ function createMarker(latlng, name, address, openStatusText, phone, index) {
     map: map,
     position: latlng,
     label: `${index + 1}`,
-    icon: '../img/starbucks-logo-icon.png'
+    icon: 'https://joserobertoarias.github.io/storelocator/img/starbucks-logo-icon.png'
   });
 
   //google.maps.event.addListener(marker, 'mouseover', function() {
