@@ -391,7 +391,7 @@ function searchStores() {
     stores.forEach(function (store) {
       //get only first five letters of postal code
       var postal = store.address.postalCode.substring(0, 5);
-      if (postal == zipCode) {
+      if (postal.includes(zipCode)) {
         foundStores.push(store);
       }
     });
