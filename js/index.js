@@ -364,7 +364,7 @@ function createMarker(latlng, name, address, openStatusText, phone, index) {
     map: map,
     position: latlng,
     label: `${index + 1}`,
-    icon: 'https://epicstorelocator.imfast.io/img/starbucks-logo-icon.png'
+    icon: '../img/starbucks-logo-icon.png'
   });
 
   //google.maps.event.addListener(marker, 'mouseover', function() {
